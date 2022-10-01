@@ -1,0 +1,21 @@
+.todoItemWrapper{
+    margin-top: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.todoItemTitle{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.todoItemHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todoHeaderBtns{
+    display: flex;
+    column-gap: 5px;
+}

@@ -1,0 +1,40 @@
+.groupItem {
+  position: relative;
+  border-radius: 4px;
+  padding: 15px;
+  border: 2px solid rgba(108, 0, 138, 0.179);
+  max-width: 320px;
+  min-width: 320px;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cardBurger {
+  font-size: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+.addTodoItem {
+  margin-top: 10px;
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+}
+
+.worningText {
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  background-color: rgba(0, 182, 100, 0.494);
+  padding: 10px;
+  border-radius: 6px;
+}

@@ -1,0 +1,77 @@
+.addGroupBtn{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(110, 0, 212, 0.439);
+    border-radius: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.addGroupBtn:hover{
+    background-color: rgb(109, 0, 212);
+}
+
+.modalWinBtn{
+    width: max-content;
+    height: 30px;
+    padding: 0 10px;
+    background-color: rgb(199, 0, 129);
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+}
+
+.btn{
+    border-radius: 4px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.editBtn{
+    background-color: #318ce7;
+}
+
+.deleteBtn, .deleteTodoItemBtn{
+    background-color: #c32148;
+    font-size: 20px;
+}
+
+.addTodoBtn{
+    width: 200px;
+    background-color: #318ce7;
+}
+
+.addTodoItemBtn{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: rgb(0, 197, 135);
+    font-size: 20px;
+}
+
+.editTodoTitleBtn{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(0, 197, 135);
+}
+
+.deleteTodoItemBtn{
+    width: 25px;
+    height: 25px;
+}
+
+.checkedBtn, .noCheckdeBtn{
+    width: 25px;
+    height: 25px;
+}
+
+.noCheckdeBtn{
+    background-color: #008358c4;
+    font-size: 20px;
+    font-weight: 600;
+}
